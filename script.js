@@ -61,7 +61,6 @@ function recordLap() {
     }
 }
 
-// Initialize display with 00 on page load
 initializeDisplay();
 
 document.getElementById('startStop').addEventListener('click', startStopTimer);
