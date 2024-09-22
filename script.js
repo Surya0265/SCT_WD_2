@@ -2,7 +2,6 @@ let isRunning = false;
 let startTime, elapsedTime = 0, timerInterval;
 let lapCounter = 1;
 
-// Ensure all time displays show 00 initially
 function initializeDisplay() {
     document.getElementById('dayNum').textContent = "00";
     document.getElementById('hourNum').textContent = "00";
